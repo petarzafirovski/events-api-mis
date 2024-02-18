@@ -1,0 +1,41 @@
+﻿services:
+  events-planner-api:
+    image: eventswebapi
+    build:
+      context: .
+      dockerfile: EventsWebApi/Dockerfile
+    container_name: events-planner
+    depends_on:
+      - mysqldb
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+    ports:
+      - "5000:80"
+    networks:
+      - events_network
+    restart: unless-stopped
+  
+  mysqldb:
+    image: mysql:8.0
+    container_name: mysql-db
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: password123!
+      MYSQL_DATABASE: eventsdb
+      MYSQL_USER: admin
+      MYSQL_PASSWORD: admin123!
+    ports:
+      - "3306:3306"
+    volumes:
+      - dbdata:/var/lib/mysql
+      - ./initdb:/docker-entrypoint-initdb.d
+    networks:
+      - events_network
+
+volumes:
+  dbdata:
+    driver: local
+
+networks:
+  events_network:
+    driver: bridge

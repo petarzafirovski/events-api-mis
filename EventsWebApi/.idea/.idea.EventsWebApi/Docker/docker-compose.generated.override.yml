@@ -1,0 +1,23 @@
+# This is a generated file. Not intended for manual editing.
+services:
+  events-planner-api:
+    build:
+      context: "C:\\Users\\zafir\\OneDrive\\Desktop\\MIS-PROJECT\\web-service\\EventsWebApi"
+      dockerfile: "EventsWebApi/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net7.0/EventsWebApi.dll"
+    environment:
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+      NUGET_PACKAGES: "C:\\Users\\zafir\\.nuget\\packages"
+      NUGET_FALLBACK_PACKAGES: "C:\\Users\\zafir\\.nuget\\packages"
+    image: "eventswebapi:dev"
+    ports: []
+    volumes:
+    - "C:\\Users\\zafir\\.nuget\\packages:/root/.nuget/fallbackpackages"
+    - "C:\\Users\\zafir\\OneDrive\\Desktop\\MIS-PROJECT\\web-service\\EventsWebApi\\\
+      EventsWebApi:/app:rw"
+    - "C:\\Users\\zafir\\OneDrive\\Desktop\\MIS-PROJECT\\web-service\\EventsWebApi:/src:rw"
+    working_dir: "/app"
