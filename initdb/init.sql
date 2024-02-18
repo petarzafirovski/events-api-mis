@@ -15,7 +15,8 @@ CREATE TABLE IF NOT EXISTS Event (
     Picture VARCHAR(255),
     EventUrl VARCHAR(255),
     EventStartDate DATETIME,
-    Artist VARCHAR(255)
+    Artist VARCHAR(255),
+	CreatedById VARCHAR(255)
     );
 
 INSERT INTO Event (Type, Name, EventEndDate, Poster, EventCenter, EventCenterLocation, BriefDescription, TicketSalesLink, IsFree, Picture, EventUrl, EventStartDate, Artist) VALUES
