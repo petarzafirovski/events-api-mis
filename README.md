@@ -1,2 +1,3 @@
-##Events planner API
-Navigate to cd/EventsWebApi and run <b>docker-compose up</b> to startup the web api and database docker containers.
+<h1>Events planner API</h1>
+
+Navigate to ````cd/EventsWebApi```` and run ````docker-compose up```` to startup the web api and database docker containers.
