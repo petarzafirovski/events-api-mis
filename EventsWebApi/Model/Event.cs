@@ -16,6 +16,7 @@ namespace EventsWebApi.Model
 
         public DateTime? EventEndDate { get; set; }
 
+        public string? PosterPrefix { get; set; }
         public byte[]? Poster { get; set; }
 
         public string? EventCenter { get; set; }

@@ -13,7 +13,7 @@ public class EventDto
     public string? Name { get; set; }
 
     [JsonPropertyName("EventEndDate")]
-    public DateTime? EventEndDate { get; set; }
+    public string? EventEndDate { get; set; }
 
     [JsonPropertyName("Poster")]
     public string? Poster { get; set; }
@@ -40,7 +40,7 @@ public class EventDto
     public string? EventUrl { get; set; }
 
     [JsonPropertyName("EventStartDate")]
-    public DateTime? EventStartDate { get; set; }
+    public string? EventStartDate { get; set; }
 
     [JsonPropertyName("Artist")]
     public string? Artist { get; set; }

@@ -11,54 +11,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ae5fb69-1032-4c3d-ae7b-b84ba02229a6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.EventsWebApi/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.EventsWebApi/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.EventsWebApi/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.EventsWebApi/.idea/indexLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.EventsWebApi/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/EventsWebApi/FileContentIndex/0c06b2ba-3e91-421f-83bb-c274e7477701.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/EventsWebApi/FileContentIndex/5e3c220c-5bcc-405f-a7d1-7848363106ac.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/EventsWebApi/FileContentIndex/bff2eb02-bfc5-43b1-b42a-1097e638b481.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/EventsWebApi/FileContentIndex/f2cde1e6-4404-44a8-8442-01be128d7553.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/EventsWebApi/FileContentIndex/read.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/EventsWebApi/config/applicationhost.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/EventsWebApi/v17/.suo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EventsWebApi/Context/ApiDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EventsWebApi/Context/ApiDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EventsWebApi/Controllers/EventsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EventsWebApi/Controllers/EventsController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EventsWebApi/Controllers/JoinedEventsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EventsWebApi/Controllers/JoinedEventsController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EventsWebApi/EventsWebApi.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/EventsWebApi/EventsWebApi.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.EventsWebApi/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EventsWebApi/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.EventsWebApi/.idea/dataSources/66d6d43e-d338-4b8c-9b53-1d4f918cb30c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EventsWebApi/.idea/dataSources/66d6d43e-d338-4b8c-9b53-1d4f918cb30c.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.EventsWebApi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EventsWebApi/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EventsWebApi/Mapper/EventMappingProfile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EventsWebApi/Mapper/EventMappingProfile.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EventsWebApi/Model/Dto/JoinedEventsDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EventsWebApi/Model/Dto/JoinedEventsDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EventsWebApi/Migrations/ApiDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EventsWebApi/Migrations/ApiDbContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EventsWebApi/Model/Dto/EventDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EventsWebApi/Model/Dto/EventDto.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EventsWebApi/Model/Event.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EventsWebApi/Model/Event.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EventsWebApi/Model/JoinedEvents.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EventsWebApi/Model/JoinedEvents.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EventsWebApi/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EventsWebApi/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EventsWebApi/Repository/IEventRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EventsWebApi/Repository/IEventRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EventsWebApi/Repository/IJoinedEventsRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EventsWebApi/Repository/IJoinedEventsRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EventsWebApi/Repository/Providers/EventRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EventsWebApi/Repository/Providers/EventRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EventsWebApi/Repository/Providers/JoinedEventsRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EventsWebApi/Repository/Providers/JoinedEventsRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EventsWebApi/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/EventsWebApi/appsettings.Development.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EventsWebApi/bin/Debug/net7.0/EventsWebApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EventsWebApi/bin/Debug/net7.0/EventsWebApi.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EventsWebApi/bin/Debug/net7.0/EventsWebApi.exe" beforeDir="false" afterPath="$PROJECT_DIR$/EventsWebApi/bin/Debug/net7.0/EventsWebApi.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EventsWebApi/bin/Debug/net7.0/EventsWebApi.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/EventsWebApi/bin/Debug/net7.0/EventsWebApi.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EventsWebApi/bin/Debug/net7.0/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/EventsWebApi/bin/Debug/net7.0/appsettings.Development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EventsWebApi/obj/Debug/net7.0/EventsWebApi.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/EventsWebApi/obj/Debug/net7.0/EventsWebApi.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EventsWebApi/obj/Debug/net7.0/EventsWebApi.MvcApplicationPartsAssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EventsWebApi/obj/Debug/net7.0/EventsWebApi.MvcApplicationPartsAssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EventsWebApi/obj/Debug/net7.0/EventsWebApi.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EventsWebApi/obj/Debug/net7.0/EventsWebApi.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EventsWebApi/obj/Debug/net7.0/EventsWebApi.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EventsWebApi/obj/Debug/net7.0/EventsWebApi.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EventsWebApi/obj/Debug/net7.0/EventsWebApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EventsWebApi/obj/Debug/net7.0/EventsWebApi.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EventsWebApi/obj/Debug/net7.0/EventsWebApi.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EventsWebApi/obj/Debug/net7.0/EventsWebApi.genruntimeconfig.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EventsWebApi/obj/Debug/net7.0/EventsWebApi.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/EventsWebApi/obj/Debug/net7.0/EventsWebApi.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EventsWebApi/obj/Debug/net7.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/EventsWebApi/obj/Debug/net7.0/apphost.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EventsWebApi/obj/Debug/net7.0/ref/EventsWebApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EventsWebApi/obj/Debug/net7.0/ref/EventsWebApi.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EventsWebApi/obj/Debug/net7.0/refint/EventsWebApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EventsWebApi/obj/Debug/net7.0/refint/EventsWebApi.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EventsWebApi/obj/EventsWebApi.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/EventsWebApi/obj/EventsWebApi.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EventsWebApi/obj/EventsWebApi.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/EventsWebApi/obj/EventsWebApi.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EventsWebApi/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/EventsWebApi/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EventsWebApi/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EventsWebApi/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EventsWebApi/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/EventsWebApi/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EventsWebApi/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/EventsWebApi/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/initdb/init.sql" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,12 +36,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "petarzafirovski"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;petarzafirovski&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -84,11 +51,8 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4f902437e548fad9357d9f1e85736d06321ede8d15c6a1daa6f43c5cb97c76/Select.SpeedOpt.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f5a2ccf8d64e7aa05089a63a768244d9f2dc55854b3a5ab1b61126bdc8f7ebe2/ToCollection.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/zafir/OneDrive/Desktop/MIS-PROJECT/web-service/EventsWebApi/Model/Event.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f5a2ccf8d64e7aa05089a63a768244d9f2dc55854b3a5ab1b61126bdc8f7ebe2/ToCollection.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -99,30 +63,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ],
-    "rider.external.source.directories": [
-      "C:\\Users\\zafir\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache",
-      "C:\\Users\\zafir\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache",
-      "C:\\Users\\zafir\\AppData\\Local\\Symbols\\src"
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\zafir\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\zafir\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\zafir\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.EventsWebApi: http">
     <configuration name="EventsWebApi: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/EventsWebApi/EventsWebApi.csproj" />
@@ -236,6 +200,7 @@
       <workItem from="1708294242725" duration="475000" />
       <workItem from="1708297462805" duration="1104000" />
       <workItem from="1708516226672" duration="12166000" />
+      <workItem from="1708635899056" duration="3625000" />
     </task>
     <task id="LOCAL-00001" summary="reorganize file structures">
       <option name="closed" value="true" />
@@ -297,39 +262,26 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/EventsWebApi/Mapper/EventMappingProfile.cs</url>
-          <line>18</line>
-          <properties documentPath="C:\Users\zafir\OneDrive\Desktop\MIS-PROJECT\web-service\EventsWebApi\Mapper\EventMappingProfile.cs" initialLine="18" containingFunctionPresentation="Method 'Map'">
-            <startOffsets>
-              <option value="424" />
-            </startOffsets>
-            <endOffsets>
-              <option value="534" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/EventsWebApi/Mapper/EventMappingProfile.cs</url>
-          <line>95</line>
+          <line>111</line>
           <properties documentPath="C:\Users\zafir\OneDrive\Desktop\MIS-PROJECT\web-service\EventsWebApi\Mapper\EventMappingProfile.cs" initialLine="94" containingFunctionPresentation="Method 'Map'">
             <startOffsets>
-              <option value="2978" />
+              <option value="3765" />
             </startOffsets>
             <endOffsets>
-              <option value="2979" />
+              <option value="3766" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/EventsWebApi/Mapper/EventMappingProfile.cs</url>
-          <line>94</line>
+          <line>110</line>
           <properties documentPath="C:\Users\zafir\OneDrive\Desktop\MIS-PROJECT\web-service\EventsWebApi\Mapper\EventMappingProfile.cs" initialLine="94" containingFunctionPresentation="Method 'Map'">
             <startOffsets>
-              <option value="2962" />
+              <option value="3749" />
             </startOffsets>
             <endOffsets>
-              <option value="2973" />
+              <option value="3760" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="11" />
@@ -346,6 +298,32 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/EventsWebApi/Controllers/EventsController.cs</url>
+          <line>71</line>
+          <properties documentPath="C:\Users\zafir\OneDrive\Desktop\MIS-PROJECT\web-service\EventsWebApi\Controllers\EventsController.cs" initialLine="71" containingFunctionPresentation="Method 'AddEvent'">
+            <startOffsets>
+              <option value="1792" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1820" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/EventsWebApi/Mapper/EventMappingProfile.cs</url>
+          <line>61</line>
+          <properties documentPath="C:\Users\zafir\OneDrive\Desktop\MIS-PROJECT\web-service\EventsWebApi\Mapper\EventMappingProfile.cs" initialLine="56" containingFunctionPresentation="Method 'Map'">
+            <startOffsets>
+              <option value="1926" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2043" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
