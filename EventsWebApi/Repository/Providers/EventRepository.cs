@@ -1,6 +1,7 @@
 ﻿using EventsWebApi.Context;
 using EventsWebApi.Exceptions;
 using EventsWebApi.Model;
+using Microsoft.EntityFrameworkCore;
 
 namespace EventsWebApi.Repository.Providers
 {
@@ -13,10 +14,10 @@ namespace EventsWebApi.Repository.Providers
             _context = context;
         }
 
-        public bool CreateEvent(Event @event)
+        public async Task<bool> CreateEvent(Event @event)
         {
             _context.Events.Add(@event);
-            _context.SaveChanges();
+            await _context.SaveChangesAsync();
             return true;
         }
 
@@ -61,9 +62,9 @@ namespace EventsWebApi.Repository.Providers
             return eventsByUser;
         }
 
-        public IEnumerable<Event> GetAllEvents()
+        public async Task<IEnumerable<Event>> GetAllEvents()
         {
-            return _context.Events.ToList();
+            return await _context.Events.ToListAsync();
         }
 
         public Event GetEvent(int id)

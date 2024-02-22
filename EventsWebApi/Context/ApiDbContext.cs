@@ -10,12 +10,13 @@ namespace EventsWebApi.Context
         protected override void OnModelCreating(ModelBuilder builder)
         {
             builder.Entity<JoinedEvents>()
-            .HasKey(je => new { je.EventId, je.UserId });
+                .HasKey(je => new { je.UserId, je.EventId });
 
             builder.Entity<JoinedEvents>()
                 .HasOne(je => je.Event)
-                .WithMany()
-                .HasForeignKey(je => je.EventId);
+                .WithMany(g=>g.JoinedEvents)
+                .HasForeignKey(je => je.EventId)
+                .OnDelete(DeleteBehavior.Cascade);
         }
 
         public DbSet<Event> Events { get; set; }

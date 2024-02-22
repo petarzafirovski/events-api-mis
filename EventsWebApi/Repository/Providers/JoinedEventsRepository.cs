@@ -1,5 +1,6 @@
 ﻿using EventsWebApi.Context;
 using EventsWebApi.Model;
+using Microsoft.EntityFrameworkCore;
 
 namespace EventsWebApi.Repository.Providers
 {
@@ -14,9 +15,18 @@ namespace EventsWebApi.Repository.Providers
             _eventRepository = eventRepository;
         }
 
-        public IEnumerable<JoinedEvents> GetMyJoinedEvents(string userId)
+        public async Task<IEnumerable<JoinedEvents>> GetMyJoinedEvents(string userId)
         {
-            return _context.JoinedEvents.ToList();
+            List<JoinedEvents> joinedEventsList = new();
+            var joined = await _context.JoinedEvents.Where(x => x.UserId == userId).ToListAsync();
+            foreach (var myEvent in joined)
+            {
+                var @event = _eventRepository.GetEvent(myEvent.EventId);
+                myEvent.Event = @event;
+                joinedEventsList.Add(myEvent);
+            }
+
+            return joinedEventsList;
         }
 
         public bool JoinEvent(JoinedEvents joinEvent)

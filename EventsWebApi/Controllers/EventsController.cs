@@ -18,12 +18,13 @@ public class EventsController : ControllerBase
     }
 
     [HttpGet("get-events")]
-    public IActionResult GetEvents()
+    public async Task<IActionResult> GetEvents()
     {
         try
         {
-            var events = _eventsRepository.GetAllEvents().Select(@event => @event.Map()).ToList();
-            return Ok(events);
+            var events = await _eventsRepository.GetAllEvents();
+            var mapped = events.Select(@event => @event.Map()).ToList();
+            return Ok(mapped);
         }
         catch (Exception ex)
         {
@@ -64,12 +65,12 @@ public class EventsController : ControllerBase
     }
 
     [HttpPost("add-event")]
-    public IActionResult AddEvent([FromBody] EventDto eventDto)
+    public async Task<IActionResult> AddEvent([FromBody] EventDto eventDto)
     {
         try
         {
             var @event = eventDto.Map();
-            var res = _eventsRepository.CreateEvent(@event);
+            var res = await _eventsRepository.CreateEvent(@event);
             if (res)
             {
                 return StatusCode(201);

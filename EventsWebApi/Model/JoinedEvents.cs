@@ -7,7 +7,6 @@ namespace EventsWebApi.Model
         public int EventId { get; set; }
         public string UserId { get; set; }
 
-        [ForeignKey(nameof(EventId))]
-        public virtual Event Event { get; set; }
+        public Event? Event { get; set; }
     }
 }

@@ -30,7 +30,7 @@ public static class EventMapper
             Type = @event.Type,
             Name = @event.Name,
             EventEndDate = @event.EventEndDate,
-            Poster = @event.Poster,
+            Poster = @event.Poster is null ? null : Convert.ToBase64String(@event.Poster),
             EventCenter = @event.EventCenter,
             EventCenterLocation = location,
             BriefDescription = @event.BriefDescription,
@@ -63,7 +63,7 @@ public static class EventMapper
             Type = eventDto.Type,
             Name = eventDto.Name,
             EventEndDate = eventDto.EventEndDate,
-            Poster = eventDto.Poster,
+            Poster = eventDto.Poster is null ? null : Convert.FromBase64String(eventDto.Poster),
             EventCenter = eventDto.EventCenter,
             EventCenterLocation = location,
             BriefDescription = eventDto.BriefDescription,
@@ -88,9 +88,10 @@ public static class EventMapper
 
     public static JoinedEventsDto Map(this JoinedEvents joinedEvent)
     {
-        return new JoinedEventsDto(joinedEvent.EventId, joinedEvent.UserId)
+        var dto =  new JoinedEventsDto(joinedEvent.EventId, joinedEvent.UserId)
         {
-            Event = joinedEvent.Event
+            Event = joinedEvent.Event?.Map() ?? null
         };
+        return dto;
     }
 }

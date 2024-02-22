@@ -10,7 +10,7 @@ namespace EventsWebApi.Model.Dto
         [Required]
         public string UserId { get; set; }
 
-        public Event? Event { get; set; }
+        public EventDto? Event { get; set; }
 
         public JoinedEventsDto(int eventId, string userId)
         {

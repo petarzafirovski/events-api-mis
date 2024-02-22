@@ -18,12 +18,13 @@ namespace EventsWebApi.Controllers
         }
 
         [HttpGet("get-joined/{userId}")]
-        public IActionResult GetEvents(string userId)
+        public async Task<IActionResult> GetEvents(string userId)
         {
             try
             {
-                var events = _joinedEventsRepository.GetMyJoinedEvents(userId).Select(e => e.Map()).ToList();
-                return Ok(events);
+                var events = await _joinedEventsRepository.GetMyJoinedEvents(userId);
+                var myEvents = events.Select(e => e.Map()).ToList();
+                return Ok(myEvents);
             }
             catch (Exception ex)
             {

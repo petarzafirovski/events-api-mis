@@ -19,6 +19,21 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+    var context = services.GetRequiredService<ApiDbContext>();
+    if (context.Database.GetPendingMigrations().Any())
+    {
+        var hasAppliedMigrations = context.Database.GetAppliedMigrations().Any();
+
+        if (!hasAppliedMigrations)
+        {
+            context.Database.Migrate();
+        }
+    }
+}
+
 app.UseSwagger();
 app.UseSwaggerUI();
 

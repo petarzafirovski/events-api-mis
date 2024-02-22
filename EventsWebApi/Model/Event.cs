@@ -16,7 +16,7 @@ namespace EventsWebApi.Model
 
         public DateTime? EventEndDate { get; set; }
 
-        public string? Poster { get; set; }
+        public byte[]? Poster { get; set; }
 
         public string? EventCenter { get; set; }
 
@@ -37,8 +37,8 @@ namespace EventsWebApi.Model
         public string? Artist { get; set; }
 
         public string? CreatedById { get; set; }
-
+        
         [JsonIgnore]
-        public virtual IEnumerable<JoinedEvents> JoinedEvents { get; set; }
+        public IEnumerable<JoinedEvents> JoinedEvents { get; set; }
     }
 }
