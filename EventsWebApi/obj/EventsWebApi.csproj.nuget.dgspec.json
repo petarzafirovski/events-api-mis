@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zafir\\OneDrive\\Desktop\\MIS-PROJECT\\web-service\\EventsWebApi\\EventsWebApi.csproj": {}
+    "C:\\Users\\petar.zafirovski\\Desktop\\events-api-mis\\EventsWebApi\\EventsWebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zafir\\OneDrive\\Desktop\\MIS-PROJECT\\web-service\\EventsWebApi\\EventsWebApi.csproj": {
+    "C:\\Users\\petar.zafirovski\\Desktop\\events-api-mis\\EventsWebApi\\EventsWebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zafir\\OneDrive\\Desktop\\MIS-PROJECT\\web-service\\EventsWebApi\\EventsWebApi.csproj",
+        "projectUniqueName": "C:\\Users\\petar.zafirovski\\Desktop\\events-api-mis\\EventsWebApi\\EventsWebApi.csproj",
         "projectName": "EventsWebApi",
-        "projectPath": "C:\\Users\\zafir\\OneDrive\\Desktop\\MIS-PROJECT\\web-service\\EventsWebApi\\EventsWebApi.csproj",
-        "packagesPath": "C:\\Users\\zafir\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zafir\\OneDrive\\Desktop\\MIS-PROJECT\\web-service\\EventsWebApi\\obj\\",
+        "projectPath": "C:\\Users\\petar.zafirovski\\Desktop\\events-api-mis\\EventsWebApi\\EventsWebApi.csproj",
+        "packagesPath": "C:\\Users\\petar.zafirovski\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\petar.zafirovski\\Desktop\\events-api-mis\\EventsWebApi\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\zafir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\petar.zafirovski\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,8 +26,9 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files\\dotnet\\sdk\\7.0.312\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.altaro.com.mt/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
@@ -101,7 +106,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.312\\RuntimeIdentifierGraph.json"
         }
       }
     }

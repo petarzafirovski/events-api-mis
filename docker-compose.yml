@@ -24,8 +24,9 @@
       MYSQL_DATABASE: eventsdb
       MYSQL_USER: admin
       MYSQL_PASSWORD: admin123!
+      MYSQL_LOG_CONSOLE: 1
     ports:
-      - "3306:3306"
+      - "3307:3307"
     volumes:
       - dbdata:/var/lib/mysql
       - ./initdb:/docker-entrypoint-initdb.d

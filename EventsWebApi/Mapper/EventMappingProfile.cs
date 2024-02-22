@@ -10,7 +10,7 @@ public static class EventMapper
     {
         NullValueHandling = NullValueHandling.Ignore
     };
-    
+
     public static EventDto Map(this Event @event)
     {
         var location = new EventCenterLocationDto();
@@ -23,7 +23,7 @@ public static class EventMapper
         {
             Console.WriteLine(e.Message);
         }
-        
+
         return new EventDto
         {
             Id = @event.Id,
@@ -43,7 +43,7 @@ public static class EventMapper
             CreatedById = @event.CreatedById
         };
     }
-    
+
     public static Event Map(this EventDto eventDto)
     {
         string? location = null;
@@ -56,7 +56,7 @@ public static class EventMapper
         {
             Console.WriteLine(e.Message);
         }
-        
+
         return new Event
         {
             Id = eventDto.Id,
@@ -74,6 +74,23 @@ public static class EventMapper
             Artist = eventDto.Artist,
             EventUrl = eventDto.EventUrl,
             CreatedById = eventDto.CreatedById
+        };
+    }
+
+    public static JoinedEvents Map(this JoinEventDto eventDto)
+    {
+        return new JoinedEvents
+        {
+            UserId = eventDto.UserId,
+            EventId = eventDto.EventId,
+        };
+    }
+
+    public static JoinedEventsDto Map(this JoinedEvents joinedEvent)
+    {
+        return new JoinedEventsDto(joinedEvent.EventId, joinedEvent.UserId)
+        {
+            Event = joinedEvent.Event
         };
     }
 }

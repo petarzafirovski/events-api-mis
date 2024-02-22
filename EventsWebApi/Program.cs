@@ -12,6 +12,7 @@ builder.Services.AddDbContext<ApiDbContext>(options =>
     options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
 });
 builder.Services.AddTransient<IEventRepository, EventRepository>();
+builder.Services.AddTransient<IJoinedEventsRepository, JoinedEventsRepository>();
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
