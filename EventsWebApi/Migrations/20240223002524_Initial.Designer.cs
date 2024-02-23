@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EventsWebApi.Migrations
 {
     [DbContext(typeof(ApiDbContext))]
-    [Migration("20240222201823_Initial")]
+    [Migration("20240223002524_Initial")]
     partial class Initial
     {
         /// <inheritdoc />
@@ -63,6 +63,9 @@ namespace EventsWebApi.Migrations
 
                     b.Property<byte[]>("Poster")
                         .HasColumnType("longblob");
+
+                    b.Property<string>("PosterPrefix")
+                        .HasColumnType("longtext");
 
                     b.Property<string>("TicketSalesLink")
                         .HasColumnType("longtext");

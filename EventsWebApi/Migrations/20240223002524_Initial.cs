@@ -26,6 +26,8 @@ namespace EventsWebApi.Migrations
                     Name = table.Column<string>(type: "longtext", nullable: true)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     EventEndDate = table.Column<DateTime>(type: "datetime(6)", nullable: true),
+                    PosterPrefix = table.Column<string>(type: "longtext", nullable: true)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
                     Poster = table.Column<byte[]>(type: "longblob", nullable: true),
                     EventCenter = table.Column<string>(type: "longtext", nullable: true)
                         .Annotation("MySql:CharSet", "utf8mb4"),
